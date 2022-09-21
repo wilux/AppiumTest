@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40e642d8-8bcb-49ac-829b-e2862d8506bf" name="Changes" comment="add sample">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HBAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.AppiumTest.sampleTest">
-    <configuration name="AppiumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AppiumTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppiumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.HBAppTest">
     <configuration name="AppiumTest.sampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AppiumTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,12 +77,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HBAppTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HBAppTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HBAppTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HBAppTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AppiumTest.sampleTest" />
+        <item itemvalue="TestNG.HBAppTest" />
+        <item itemvalue="TestNG.HBAppTest.loginTest" />
         <item itemvalue="TestNG.AppiumTest" />
+        <item itemvalue="TestNG.AppiumTest.sampleTest" />
         <item itemvalue="JUnit.AppiumTest.sampleTest" />
-        <item itemvalue="JUnit.AppiumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663682005872</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add sample">
+      <created>1663702803548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663702803548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
