@@ -1,4 +1,5 @@
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.Setting;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -36,6 +37,7 @@ public class HBAppTest {
 
         driver = new AndroidDriver(remoteUrl, desiredCapabilities);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.setSetting(Setting.WAIT_FOR_IDLE_TIMEOUT, 100);
 
     }
 
